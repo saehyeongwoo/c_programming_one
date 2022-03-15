@@ -27,10 +27,10 @@
               double c = 123.456;
               long double d = 123.456;
   
-              printf("a: %d\n", a);
-              printf("b: %f\n", b);
-              printf("c: %f\n", c);
-              printf("d: %lf\n", d);
+              printf("int a: %d\n", a);
+              printf("float b: %.10f\n", b);
+              printf("double c: %.10f\n", c);
+              printf("double d: %.10lf\n", d);
   
               return 0;
           }
@@ -39,10 +39,13 @@
        - `float`, `double` = `%f`
        - `long double` = `%lf`
        - 실행 사진
-      
+         
+         ![image](https://user-images.githubusercontent.com/83276163/158315210-cbffd68c-db81-4692-bb85-a3b0a8cc2794.png)
+
          ```
-         위 실행 사진에서 볼 수 있듯, float보다 double이 더 정확한 연산을 하며,
-         double보다 long double이 더 정확한 연산을 한다.
+         위 실행 사진에서 볼 수 있듯, double이 float보다 더 정확한 연산을 한다.
+         double과 long double이 위 실행 사진에선 차이가 보이지 않지만,
+         long double이 double보다 더 작은 수로 갈 수록 더 정교한 연산을 할 수 있다.
          ```     
       ```
          Q. 그럼 float은 왜 쓰나요?
