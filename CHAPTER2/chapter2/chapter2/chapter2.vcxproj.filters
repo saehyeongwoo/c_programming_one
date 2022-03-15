@@ -24,5 +24,8 @@
     <ClCompile Include="homework3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="homework4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
