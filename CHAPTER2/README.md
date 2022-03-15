@@ -30,7 +30,7 @@
               printf("int a: %d\n", a);
               printf("float b: %.10f\n", b);
               printf("double c: %.10f\n", c);
-              printf("double d: %.10lf\n", d);
+              printf("long double d: %.10lf\n", d);
   
               return 0;
           }
