@@ -5,5 +5,7 @@
 int main() {
 	printf("Hello World!\n");
 	printf("TEST");
+	printf("시니어 메이트 우세형");
+
 	return 0;
 }
